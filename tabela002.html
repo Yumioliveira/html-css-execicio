@@ -16,7 +16,7 @@
         }
 
         tbody > tr:nth-child(even) {
-            background-color: lightgray;
+            background-color: rgb(205, 205, 205);
             font-weight: bold;
         }
 
@@ -24,6 +24,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
 
@@ -42,7 +43,13 @@
         }
 
         thead, tfoot {
-            background-color: lightgray;
+            background-color: rgb(104, 101, 101);
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(138, 137, 137);
         }
 
         caption {
